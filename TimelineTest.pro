@@ -21,3 +21,5 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui \
     timelinewidget.ui
+
+DISTFILES +=
