@@ -60,13 +60,13 @@
      <property name="minimumSize">
       <size>
        <width>0</width>
-       <height>30</height>
+       <height>25</height>
       </size>
      </property>
      <property name="maximumSize">
       <size>
        <width>16777215</width>
-       <height>30</height>
+       <height>25</height>
       </size>
      </property>
      <property name="sizeIncrement">
@@ -171,7 +171,7 @@
         <x>0</x>
         <y>0</y>
         <width>100</width>
-        <height>387</height>
+        <height>392</height>
        </rect>
       </property>
       <property name="minimumSize">
@@ -207,11 +207,20 @@
     </widget>
    </item>
    <item row="0" column="2">
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string>Label</string>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
      </property>
-    </widget>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>25</height>
+      </size>
+     </property>
+    </spacer>
    </item>
   </layout>
  </widget>
